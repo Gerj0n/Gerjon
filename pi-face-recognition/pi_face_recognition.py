@@ -31,7 +31,7 @@ print("[INFO] starting video stream...")
 vs = VideoStream(usePiCamera=True).start()
 time.sleep(2.0)
 
-# start the FPS counter
+# start de FPS teller
 fps = FPS().start()
 
 # loop over frames from the video file stream
